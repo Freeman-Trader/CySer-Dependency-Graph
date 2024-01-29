@@ -1,0 +1,26 @@
+0: Modules
+1607901699840
+1: Function Definition: hi
+1607901699792
+2: Expr
+1607901699696
+3: Function Call: print
+1607901699696
+1: Function Definition: bye
+1607901699504
+2: Expr
+1607901699408
+3: Function Call: hi
+1607901699408
+2: Expr
+1607901699264
+3: Function Call: print
+1607901699264
+1: Expr
+1607901699072
+2: Function Call: bye
+1607901699072
+1: Expr
+1607901698928
+2: Function Call: hi
+1607901698928
