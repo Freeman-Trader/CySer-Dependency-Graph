@@ -85,8 +85,9 @@ def tie_up_loose_statements():
                 count = count - 1
 
             # Rename the combined Expr to Loose Statements and add back to the parent's children
-            loose_expressions[0][1] = 'Loose Statements'
-            node['Children'].append(loose_expressions[0])
+            if len(loose_expressions) > 0:
+                loose_expressions[0][1] = 'Loose Statements'
+                node['Children'].append(loose_expressions[0])
 
 
 # Helper Function for tie_up_loose_statements() that combines 2 nodes calling list
@@ -102,7 +103,10 @@ def combine_nodes(ID1, ID2):
     if node1 and node2:
         node1['Type'] = 'Loose Statements'
         node2['Type'] = 'Loose Statements'
-        node1['Calling'] += node2['Calling']
+        if 'Calling' in node1 and 'Calling' in node2:
+            node1['Calling'] += node2['Calling']
+        elif 'Calling' in node2:
+            node1['Calling'] = node2['Calling']
         node_list.remove(node2)
 
 
@@ -170,7 +174,7 @@ def visualize_ast():
 
 
 # Generates AST
-ast_object = generate_ast_from_file('test.py')
+ast_object = generate_ast_from_file('AST.py')
 
 # Write AST to file and object
 parse_ast(ast_object, "AST.txt")
