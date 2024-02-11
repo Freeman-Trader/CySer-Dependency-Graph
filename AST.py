@@ -4,6 +4,7 @@ import igraph
 node_list = list()
 
 # Redefines functions within the NodeVisitor class to print to file in specific format
+# Notes - Uncomment Print Statements if you want to Save the AST Structure to AST.txt
 class NodePrinter(ast.NodeVisitor):
     def __init__(self, output_file):
         self.output_file = output_file
@@ -33,7 +34,7 @@ class NodePrinter(ast.NodeVisitor):
             if hasattr(node.value.func, "id"):
                 # print('Calling:', file=self.output_file)
                 # print(str(node.value.func.id), file=self.output_file)  
-                dict_entry['Calling'] = str(node.value.func.id)
+                dict_entry['Calling'] = [str(node.value.func.id)]
             elif hasattr(node.value.func, "attr"):
                 # print('Attr:', file=self.output_file)
                 # print(str(node.value.func.attr), file=self.output_file)  
@@ -61,8 +62,49 @@ def parse_ast(ast_object, filename):
         NodePrinter(file).visit(ast_object)
 
 
-# def tie_up_loose_statements(graph):
-# Needs work
+# Modifies the node_list so that every node with Expr will have a Loose Statement instead
+def tie_up_loose_statements():
+    # Go through node_list looking for nodes with children
+    for node in node_list:
+        if 'Children' in node:
+            # Once a node with children is found collect the children that are Expr
+            loose_expressions = list()
+            for child in node['Children']:
+                if child[1] == 'Expr':
+                    loose_expressions.append(child)
+            # Once a node with children is found delete the children that are Expr (Have to do this in a seperate step since traversal gets mess up if deleting elements while traversing)
+            for child in reversed(node['Children']):
+                if child[1] == 'Expr':
+                    node['Children'].remove(child)
+
+        
+            # Combine the Expr into one
+            count = len(loose_expressions)    
+            while count > 1:
+                combine_nodes(loose_expressions[0][0], loose_expressions[count-1][0])
+                count = count - 1
+
+            # Rename the combined Expr to Loose Statements and add back to the parent's children
+            loose_expressions[0][1] = 'Loose Statements'
+            node['Children'].append(loose_expressions[0])
+
+
+# Helper Function for tie_up_loose_statements() that combines 2 nodes calling list
+def combine_nodes(ID1, ID2):
+    # Finds specificed nodes
+    for node in node_list:
+        if node['ID'] == ID1:
+            node1 = node
+        elif node['ID'] == ID2:
+            node2 = node
+    
+    # Adds node2's list of calls to node1's calls and then deletes node2
+    if node1 and node2:
+        node1['Type'] = 'Loose Statements'
+        node2['Type'] = 'Loose Statements'
+        node1['Calling'] += node2['Calling']
+        node_list.remove(node2)
+
 
 # Traverses through node list and adds each node to the graph
 def add_nodes(graph):
@@ -91,15 +133,16 @@ def add_edges(graph):
 def visualize_ast():
     newGraph = igraph.Graph(directed=True)
     
+    # Collects Expr and puts them together
+    tie_up_loose_statements()
+
     add_nodes(newGraph)
     add_edges(newGraph)
 
     # Deletes the vertices with degree 0
     newGraph.delete_vertices([v.index for v in newGraph.vs if newGraph.degree()[v.index] == 0])
-    # Collects Expr and puts them together
-    # newGraph = tie_up_loose_statements(newGraph)
     # Deletes self-loop edges
-    #newGraph.simplify(multiple=False, loops=True)
+    # newGraph.simplify(multiple=False, loops=True)
 
     layout = newGraph.layout('kk')
     igraph.plot(newGraph, 'AST.png', layout=layout)
