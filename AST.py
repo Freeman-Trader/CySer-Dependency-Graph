@@ -109,7 +109,10 @@ def combine_nodes(ID1, ID2):
 # Traverses through node list and adds each node to the graph
 def add_nodes(graph):
     for index in node_list:
-        graph.add_vertex(name=index['ID'], label=index['Type'])
+        if 'Name' in index:
+            graph.add_vertex(name=index['ID'], label=index['Type'] + ': ' + index['Name'])
+        else:
+            graph.add_vertex(name=index['ID'], label=index['Type'])
 
 
 # Traverses through node list and adds each edge relationship to the graph
@@ -124,9 +127,10 @@ def add_edges(graph):
     # Calling relationships
     for index in node_list:
         if 'Calling' in index:
-            for sIndex in node_list:
-                if 'Name' in sIndex and sIndex['Name'] == index['Calling']:
-                    graph.add_edge(index['ID'], sIndex['ID'], color='green')
+            for call in index['Calling']:
+                for sIndex in node_list:
+                    if 'Name' in sIndex and sIndex['Name'] == call:
+                        graph.add_edge(index['ID'], sIndex['ID'], color='green')
 
 
 # Reads file and generates graph from file
@@ -142,7 +146,7 @@ def visualize_ast():
     # Deletes the vertices with degree 0
     newGraph.delete_vertices([v.index for v in newGraph.vs if newGraph.degree()[v.index] == 0])
     # Deletes self-loop edges
-    # newGraph.simplify(multiple=False, loops=True)
+    newGraph.simplify(multiple=False, loops=True)
 
     layout = newGraph.layout('kk')
     igraph.plot(newGraph, 'AST.png', layout=layout)

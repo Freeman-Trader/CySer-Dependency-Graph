@@ -6,5 +6,5 @@ For the program to work, run pip install igraph on your system and then run pyth
 
 ## TODO
 * Add Labels to Nodes
-* Improve the Format of the Graph
+* Improve the Format of the Graph (Coloring and Placement of Nodes)
 * Add Tests
