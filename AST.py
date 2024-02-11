@@ -109,8 +109,8 @@ def combine_nodes(ID1, ID2):
 # Traverses through node list and adds each node to the graph
 def add_nodes(graph):
     for index in node_list:
-        if 'Name' in index:
-            graph.add_vertex(name=index['ID'], label=index['Type'] + ': ' + index['Name'])
+        if index['Type'] == 'FunctionDef':
+            graph.add_vertex(name=index['ID'], label='Function - ' + index['Name'], color='blue')
         else:
             graph.add_vertex(name=index['ID'], label=index['Type'])
 
@@ -148,8 +148,25 @@ def visualize_ast():
     # Deletes self-loop edges
     newGraph.simplify(multiple=False, loops=True)
 
-    layout = newGraph.layout('kk')
-    igraph.plot(newGraph, 'AST.png', layout=layout)
+    # List of all possible igraph layouts
+    #igraph.plot(newGraph, 'AST.png', layout='auto')
+    #igraph.plot(newGraph, 'AST.png', layout='random')
+    #igraph.plot(newGraph, 'AST.png', layout='grid')
+    #igraph.plot(newGraph, 'AST.png', layout='drl')
+    #igraph.plot(newGraph, 'AST.png', layout='star')
+    #igraph.plot(newGraph, 'AST.png', layout='circle')
+    #igraph.plot(newGraph, 'AST.png', layout='kamada_kawai')
+    #igraph.plot(newGraph, 'AST.png', layout='graphopt')
+    #igraph.plot(newGraph, 'AST.png', layout='reingold_tilford_circular')
+    #igraph.plot(newGraph, 'AST.png', layout='mds')
+    #igraph.plot(newGraph, 'AST.png', layout='lgl')
+
+
+    # My favorite layouts
+    #igraph.plot(newGraph, 'AST.png', layout='reingold_tilford')
+    igraph.plot(newGraph, 'AST.png', layout='sugiyama')
+    #igraph.plot(newGraph, 'AST.png', layout='davidson_harel')
+    #igraph.plot(newGraph, 'AST.png', layout='fruchterman_reingold')
 
 
 # Generates AST
