@@ -1,3 +1,4 @@
+import os
 import ast
 import igraph
 
@@ -58,7 +59,7 @@ def generate_ast_from_file(filename):
 
 # Opens file in write mode and then starts the AST traversal
 def parse_ast(ast_object, filename):
-    with open(filename, 'w') as file:
+    with open(filename, 'r') as file:
         NodePrinter(file).visit(ast_object)
 
 
@@ -173,11 +174,22 @@ def visualize_ast():
     #igraph.plot(newGraph, 'AST.png', layout='fruchterman_reingold')
 
 
-# Generates AST
-ast_object = generate_ast_from_file('AST.py')
+folder_name = "data" #input name of folder here, folder must be in res
+path = os.getcwd() + "\\" + folder_name
+for filename in os.listdir(path):
+    if filename.endswith('.py'):  # Check for python file extensions.
+        current_file = os.path.join(path, filename)
+        # Generates AST
+        ast_object = generate_ast_from_file(current_file)
 
-# Write AST to file and object
-parse_ast(ast_object, "AST.txt")
+        # Write AST to file and object
+        parse_ast(ast_object, current_file)
+
+# # Generates AST
+# ast_object = generate_ast_from_file('test.py')
+
+# # Write AST to file and object
+# parse_ast(ast_object, "test.py")
 
 # Visualize the AST
 visualize_ast()
