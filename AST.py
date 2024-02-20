@@ -170,6 +170,7 @@ def visualize_ast():
     # My favorite layouts
     #igraph.plot(newGraph, 'AST.png', layout='reingold_tilford')
     igraph.plot(newGraph, 'AST.png', layout='sugiyama')
+    #igraph.plot(newGraph, 'AST.png',vertex_label_size=14, vertex_size=34)
     #igraph.plot(newGraph, 'AST.png', layout='davidson_harel')
     #igraph.plot(newGraph, 'AST.png', layout='fruchterman_reingold')
 
