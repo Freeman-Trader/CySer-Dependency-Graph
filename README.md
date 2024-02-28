@@ -4,6 +4,10 @@
 
 For the program to work, run pip install igraph on your system and then run python AST.py
 
+## Installing Dependencies
+pip install igraph
+pip install pycairo
+
 ## TODO
 * Add Labels to Nodes
 * Improve the Format of the Graph (Coloring and Placement of Nodes)
