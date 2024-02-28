@@ -5,41 +5,39 @@ import igraph
 node_list = list()
 
 # Redefines functions within the NodeVisitor class to print to file in specific format
-# Notes - Uncomment Print Statements if you want to Save the AST Structure to AST.txt
 class NodePrinter(ast.NodeVisitor):
     def __init__(self, output_file):
         self.output_file = output_file
 
     def generic_visit(self, node):
-        # print('\n', file=self.output_file)
-        # print('Type: ' + type(node).__name__, file=self.output_file)
-        # print('ID: ' + str(id(node)), file=self.output_file)
+        print('\n', file=self.output_file)
+        print('Type: ' + type(node).__name__, file=self.output_file)
+        print('ID: ' + str(id(node)), file=self.output_file)
 
         dict_entry = {'Type':type(node).__name__, 'ID':str(id(node))}
 
         if hasattr(node, 'name'):
-            # print('Name: ' + str(node.name), file=self.output_file)
+            print('Name: ' + str(node.name), file=self.output_file)
             dict_entry['Name'] = str(node.name)
 
         if hasattr(node, 'body'):
-            # print('Children:', file=self.output_file)
+            print('Children:', file=self.output_file)
             temp_array = list()
 
             for i in node.body:
-                # print(str(id(i)), file=self.output_file)
+                print(str(id(i)), file=self.output_file)
                 temp_array.append([str(id(i)), type(i).__name__])
 
             dict_entry['Children'] = temp_array
 
         if type(node).__name__ == "Expr":
             if hasattr(node.value.func, "id"):
-                # print('Calling:', file=self.output_file)
-                # print(str(node.value.func.id), file=self.output_file)  
+                print('Calling:', file=self.output_file)
+                print(str(node.value.func.id), file=self.output_file)  
                 dict_entry['Calling'] = [str(node.value.func.id)]
             elif hasattr(node.value.func, "attr"):
-                # print('Attr:', file=self.output_file)
-                # print(str(node.value.func.attr), file=self.output_file)  
                 dict_entry['Attr'] = str(node.value.func.attr)
+
 
         node_list.append(dict_entry)
 
@@ -59,7 +57,7 @@ def generate_ast_from_file(filename):
 
 # Opens file in write mode and then starts the AST traversal
 def parse_ast(ast_object, filename):
-    with open(filename, 'r') as file:
+    with open(filename, 'w') as file:
         NodePrinter(file).visit(ast_object)
 
 
@@ -153,44 +151,28 @@ def visualize_ast():
     # Deletes self-loop edges
     newGraph.simplify(multiple=False, loops=True)
 
-    # List of all possible igraph layouts
-    #igraph.plot(newGraph, 'AST.png', layout='auto')
-    #igraph.plot(newGraph, 'AST.png', layout='random')
-    #igraph.plot(newGraph, 'AST.png', layout='grid')
-    #igraph.plot(newGraph, 'AST.png', layout='drl')
-    #igraph.plot(newGraph, 'AST.png', layout='star')
-    #igraph.plot(newGraph, 'AST.png', layout='circle')
-    #igraph.plot(newGraph, 'AST.png', layout='kamada_kawai')
-    #igraph.plot(newGraph, 'AST.png', layout='graphopt')
-    #igraph.plot(newGraph, 'AST.png', layout='reingold_tilford_circular')
-    #igraph.plot(newGraph, 'AST.png', layout='mds')
-    #igraph.plot(newGraph, 'AST.png', layout='lgl')
-
 
     # My favorite layouts
     #igraph.plot(newGraph, 'AST.png', layout='reingold_tilford')
-    igraph.plot(newGraph, 'AST.png', layout='sugiyama')
+    #igraph.plot(newGraph, 'AST.png', layout='sugiyama')
     #igraph.plot(newGraph, 'AST.png',vertex_label_size=14, vertex_size=34)
-    #igraph.plot(newGraph, 'AST.png', layout='davidson_harel')
+    igraph.plot(newGraph, 'AST.png', layout='davidson_harel')
     #igraph.plot(newGraph, 'AST.png', layout='fruchterman_reingold')
 
 
-folder_name = "data" #input name of folder here, folder must be in res
+# Input name of folder here, folder must be in res
+folder_name = "data" 
 path = os.getcwd() + "\\" + folder_name
 for filename in os.listdir(path):
-    if filename.endswith('.py'):  # Check for python file extensions.
+    # Check for python file extensions
+    if filename.endswith('.py'):  
         current_file = os.path.join(path, filename)
         # Generates AST
         ast_object = generate_ast_from_file(current_file)
 
         # Write AST to file and object
-        parse_ast(ast_object, current_file)
+        parse_ast(ast_object, 'AST.txt')
 
-# # Generates AST
-# ast_object = generate_ast_from_file('test.py')
-
-# # Write AST to file and object
-# parse_ast(ast_object, "test.py")
 
 # Visualize the AST
 visualize_ast()

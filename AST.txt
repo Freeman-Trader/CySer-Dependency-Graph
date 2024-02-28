@@ -1,0 +1,747 @@
+
+
+Type: Module
+ID: 1964989659744
+Children:
+1964989660656
+1964989659456
+1964989659840
+1964989659360
+1964989659648
+1964989660080
+1964989889888
+1964989889600
+1964989878704
+1964989878848
+1964989879232
+
+
+Type: Import
+ID: 1964989660656
+
+
+Type: alias
+ID: 1964989659216
+Name: numpy.random
+
+
+Type: ImportFrom
+ID: 1964989659456
+
+
+Type: alias
+ID: 1964989660416
+Name: hexlify
+
+
+Type: Assign
+ID: 1964989659840
+
+
+Type: Name
+ID: 1964989659552
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Constant
+ID: 1964989659312
+
+
+Type: Assign
+ID: 1964989659360
+
+
+Type: Name
+ID: 1964989659504
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Call
+ID: 1964989660560
+
+
+Type: Attribute
+ID: 1964989659984
+
+
+Type: Name
+ID: 1964989659888
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Name
+ID: 1964989659600
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Expr
+ID: 1964989659648
+Calling:
+print
+
+
+Type: Call
+ID: 1964989659696
+
+
+Type: Name
+ID: 1964989659936
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Name
+ID: 1964989660032
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: ClassDef
+ID: 1964989660080
+Name: B
+Children:
+1964989660464
+1964989875152
+
+
+Type: FunctionDef
+ID: 1964989660464
+Name: __init__
+Children:
+1964989660800
+1964989660752
+1964989661088
+
+
+Type: arguments
+ID: 1964989660176
+
+
+Type: arg
+ID: 1964989660128
+
+
+Type: arg
+ID: 1964989660224
+
+
+Type: arg
+ID: 1964989660512
+
+
+Type: arg
+ID: 1964989660608
+
+
+Type: Assign
+ID: 1964989660800
+
+
+Type: Attribute
+ID: 1964989660848
+
+
+Type: Name
+ID: 1964989660896
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Name
+ID: 1964989660704
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Assign
+ID: 1964989660752
+
+
+Type: Attribute
+ID: 1964989660944
+
+
+Type: Name
+ID: 1964989660992
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Name
+ID: 1964989661040
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Assign
+ID: 1964989661088
+
+
+Type: Attribute
+ID: 1964989661136
+
+
+Type: Name
+ID: 1964989880864
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Name
+ID: 1964989881440
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: FunctionDef
+ID: 1964989875152
+Name: b1
+Children:
+1964989875296
+
+
+Type: arguments
+ID: 1964989877552
+
+
+Type: arg
+ID: 1964989876064
+
+
+Type: Expr
+ID: 1964989875296
+Calling:
+print
+
+
+Type: Call
+ID: 1964989890176
+
+
+Type: Name
+ID: 1964989889408
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: JoinedStr
+ID: 1964989890464
+
+
+Type: Constant
+ID: 1964989890416
+
+
+Type: FormattedValue
+ID: 1964989890368
+
+
+Type: Attribute
+ID: 1964989890320
+
+
+Type: Name
+ID: 1964989890272
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Constant
+ID: 1964989890224
+
+
+Type: FormattedValue
+ID: 1964989890128
+
+
+Type: Attribute
+ID: 1964989890080
+
+
+Type: Name
+ID: 1964989890032
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Constant
+ID: 1964989889744
+
+
+Type: FormattedValue
+ID: 1964989889456
+
+
+Type: Attribute
+ID: 1964989889984
+
+
+Type: Name
+ID: 1964989889936
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Assign
+ID: 1964989889888
+
+
+Type: Name
+ID: 1964989889840
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: BinOp
+ID: 1964989889792
+
+
+Type: Constant
+ID: 1964989889696
+
+
+Type: Mult
+ID: 1966835929328
+
+
+Type: Constant
+ID: 1964989889648
+
+
+Type: ClassDef
+ID: 1964989889600
+Name: C
+Children:
+1964989889552
+1964989889312
+1964989875344
+1964989877360
+
+
+Type: Assign
+ID: 1964989889552
+
+
+Type: Name
+ID: 1964989889504
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Constant
+ID: 1964989889360
+
+
+Type: FunctionDef
+ID: 1964989889312
+Name: __init__
+Children:
+1964989889120
+1964989876112
+1964989876352
+
+
+Type: arguments
+ID: 1964989889264
+
+
+Type: arg
+ID: 1964989889216
+
+
+Type: arg
+ID: 1964989876016
+
+
+Type: arg
+ID: 1964989889168
+
+
+Type: Assign
+ID: 1964989889120
+
+
+Type: Attribute
+ID: 1964989874288
+
+
+Type: Name
+ID: 1964989874336
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Name
+ID: 1964989874384
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Assign
+ID: 1964989876112
+
+
+Type: Attribute
+ID: 1964989876160
+
+
+Type: Name
+ID: 1964989876208
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Name
+ID: 1964989876304
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Expr
+ID: 1964989876352
+Calling:
+print
+
+
+Type: Call
+ID: 1964989876400
+
+
+Type: Name
+ID: 1964989875536
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Constant
+ID: 1964989875488
+
+
+Type: Name
+ID: 1964989875440
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Name
+ID: 1964989875392
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: FunctionDef
+ID: 1964989875344
+Name: c1
+Children:
+1964989875248
+
+
+Type: arguments
+ID: 1964989876496
+
+
+Type: arg
+ID: 1964989875680
+
+
+Type: Return
+ID: 1964989875248
+
+
+Type: BinOp
+ID: 1964989877216
+
+
+Type: Constant
+ID: 1964989877264
+
+
+Type: Add
+ID: 1966835929136
+
+
+Type: Attribute
+ID: 1964989877312
+
+
+Type: Name
+ID: 1964989874816
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: FunctionDef
+ID: 1964989877360
+Name: c2
+Children:
+1964989877648
+
+
+Type: arguments
+ID: 1964989877408
+
+
+Type: arg
+ID: 1964989877456
+
+
+Type: arg
+ID: 1964989877600
+
+
+Type: Return
+ID: 1964989877648
+
+
+Type: Call
+ID: 1964989877696
+
+
+Type: Attribute
+ID: 1964989877744
+
+
+Type: Call
+ID: 1964989877792
+
+
+Type: Name
+ID: 1964989877840
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Call
+ID: 1964989878368
+
+
+Type: Attribute
+ID: 1964989878416
+
+
+Type: Call
+ID: 1964989878464
+
+
+Type: Attribute
+ID: 1964989878512
+
+
+Type: Name
+ID: 1964989878608
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Assign
+ID: 1964989878704
+
+
+Type: Name
+ID: 1964989878752
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: BinOp
+ID: 1964989878800
+
+
+Type: Name
+ID: 1964989879136
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: FloorDiv
+ID: 1966835930288
+
+
+Type: Constant
+ID: 1964989879520
+
+
+Type: Assign
+ID: 1964989878848
+
+
+Type: Name
+ID: 1964989878896
+
+
+Type: Store
+ID: 1966835928656
+
+
+Type: Call
+ID: 1964989878944
+
+
+Type: Attribute
+ID: 1964989878992
+
+
+Type: Name
+ID: 1964989879088
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Name
+ID: 1964989879184
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Expr
+ID: 1964989879232
+Calling:
+print
+
+
+Type: Call
+ID: 1964989879280
+
+
+Type: Name
+ID: 1964989879424
+
+
+Type: Load
+ID: 1966835928560
+
+
+Type: Constant
+ID: 1964989879472
+
+
+Type: Name
+ID: 1964989879616
+
+
+Type: Load
+ID: 1966835928560
