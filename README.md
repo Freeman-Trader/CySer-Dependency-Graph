@@ -11,4 +11,20 @@ pip install pycairo
 ## TODO
 * Add Labels to Nodes
 * Improve the Format of the Graph (Coloring and Placement of Nodes)
+    Modules Nodes
+    Classes
+    Functions
+        Async
+        Non-Async
+    Loose Statements
+
+    Edge
+        Children
+        Calling
+        Return
+    
+    Add feature where you can toggle off certain types of edges or nodes
+
+
 * Add Tests
+* Optimize code
