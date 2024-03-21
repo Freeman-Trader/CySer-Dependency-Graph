@@ -88,8 +88,8 @@ def parse_ast(ast_node, location):
 #         # Generates AST then writes AST to file and object
 #         print(generate_ast_from_file(current_file))
     
-ast_object = generate_ast_from_file("AST.py")
-parse_ast(ast_object, os.getcwd() + "\\" + "AST.py")
+ast_object = generate_ast_from_file("data/test1.py")
+parse_ast(ast_object, os.getcwd() + "\\" + "data/test1.py")
 
 # Deletes the vertices with degree 0
 graph.delete_vertices([v.index for v in graph.vs if graph.degree()[v.index] == 0])

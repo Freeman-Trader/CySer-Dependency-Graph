@@ -28,3 +28,5 @@ pip install pycairo
 
 * Add Tests
 * Optimize code
+* Add machine learning capabilities
+* Juptyer Notebooks
