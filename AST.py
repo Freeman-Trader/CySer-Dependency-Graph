@@ -72,10 +72,26 @@ def parse_ast(ast_node, location):
                 else:
                     recursive_add_calls(child, location, parent)
 
+    def recursive_add_returns(ast_node, location, parent):
+        if str(type(ast_node)) == '<class \'ast.Return\'>':
+            print('hi')
+            graph.add_edge((location + '/' + parent + 'loose'), (location + '/' + parent), color='red')
+
+
+        if hasattr(ast_node, 'body'):
+            for child in ast_node.body:
+                if str(type(ast_node)) == '<class \'ast.Module\'>':
+                    recursive_add_returns(child, location, str(type(ast_node)))
+                elif str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>':
+                    recursive_add_returns(child, location, ast_node.name)
+                else:
+                    recursive_add_returns(child, location, parent)
+        
     recursive_add_nodes(ast_node, location)
     recursive_add_children(ast_node, location)
     recursive_add_loose_statements(ast_node, location)
     recursive_add_calls(ast_node, location, '')
+    recursive_add_returns(ast_node, location, '')
 
 # Input name of folder here, folder must be in res
 # current_file = str()
