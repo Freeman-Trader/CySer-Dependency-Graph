@@ -36,6 +36,9 @@ def recursive_get_files(filepath):
         edge_list_string = to_edge_list_names(graph)
         edge_list_dict = create_node_name_to_id(edge_list_string)
         edge_list_numbers = to_edge_list_numbers(edge_list_string, edge_list_dict)
+        with open(filepath.split('.')[0] + '.txt', 'w') as f:
+            f.write(edge_list_numbers)
+        print("Content has been written to", filepath)
         print(edge_list_string)
         print(edge_list_dict)
         print(edge_list_numbers)
@@ -150,18 +153,9 @@ def to_edge_list_names(graph):
     return updated
 
 def to_edge_list_numbers(names, name_dict):
-    lines = names.strip().split('\n')
-    for line in lines:
-        nodes = line.strip().split(',')
-        for node in nodes:
-            if node in name_dict:
-                node.replace(node,str(name_dict[node]))
-            elif node not in name_dict:
-                print("node not in node dictionary !")
-                return -1
-    return nodes
-
-
+    for name in reversed(name_dict):
+        names = names.replace(name, str(name_dict[name]))
+    return names
 
 def create_node_name_to_id(edge_list_string):
     node_name_to_id = {}
@@ -170,11 +164,10 @@ def create_node_name_to_id(edge_list_string):
     for line in lines:
         nodes = line.strip().split(',')
         for node in nodes:
-            if node not in node_name_to_id:
+            if node not in node_name_to_id and node != "":
                 node_name_to_id[node] = current_id
                 current_id += 1
     return node_name_to_id
-
 
 graph = igraph.Graph(directed=True)
 user_input = get_user_input()
