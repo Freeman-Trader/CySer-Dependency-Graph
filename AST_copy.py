@@ -150,6 +150,7 @@ def to_edge_list_names(graph):
     updated = updated.replace(", ", ",\n")
     updated = updated.replace("/->", ",")
     updated = updated.replace("->", ",")
+    updated = updated + ","
     return updated
 
 def to_edge_list_numbers(names, name_dict):
