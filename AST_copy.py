@@ -39,9 +39,9 @@ def recursive_get_files(filepath):
         with open(filepath.split('.')[0] + '.txt', 'w') as f:
             f.write(edge_list_numbers)
         print("Content has been written to", filepath)
-        print(edge_list_string)
-        print(edge_list_dict)
-        print(edge_list_numbers)
+        # print(edge_list_string)
+        # print(edge_list_dict)
+        # print(edge_list_numbers)
         graph.clear()
         print("Dependency Graph Created")
 
