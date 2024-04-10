@@ -8,7 +8,7 @@ reports_folder_abs_path = os.path.abspath('AST.py') + '\\..\\' + reports_folder_
 graph = igraph.Graph(directed=True)
 
 def get_user_input():
-    return input("Relative File/Folder Path:")
+    return input("File or Folder Path:")
 
 def build_report_folder():
     os.chdir(os.path.abspath('AST.py') + '\\..')
