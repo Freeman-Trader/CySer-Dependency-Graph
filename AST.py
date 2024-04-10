@@ -1,9 +1,19 @@
+#import sys
 import os
 import ast
 import igraph
 
+reports_folder_name = 'igraph_reports'
+reports_folder_abs_path = os.path.abspath('AST.py') + '\\..\\' + reports_folder_name
+graph = igraph.Graph(directed=True)
+
 def get_user_input():
     return input("Relative File/Folder Path:")
+
+def build_report_folder():
+    os.chdir(os.path.abspath('AST.py') + '\\..')
+    if not os.path.isdir(reports_folder_abs_path):
+        os.mkdir(reports_folder_name)
 
 # Opens up a file and parses into an AST object
 def generate_ast_from_file(filename):
@@ -20,7 +30,8 @@ def recursive_get_files(name):
     if os.path.isfile(name) and name.split('.')[-1] == 'py':
         print("Found File")
         parse_ast(generate_ast_from_file(name), os.getcwd() + "\\" + name)
-        igraph.plot(graph, name.split('.')[0] + '.png', margin=50, layout='reingold_tilford', vertex_label_size=14, vertex_size=34)
+        #igraph.plot(graph, name.split('.')[0] + '.png', margin=50, layout='reingold_tilford', vertex_label_size=14, vertex_size=34)
+        igraph.write(graph, reports_folder_abs_path + '\\' + name.split('.')[0].split('\\')[-1] + '.graphml')
         graph.clear()
         print("Dependency Graph Created")
 
@@ -31,7 +42,6 @@ def recursive_get_files(name):
                 recursive_get_files(it.path)
 
 def parse_ast(ast_node, location):
-
     def recursive_add_nodes(ast_node, location):
         if str(type(ast_node)) == '<class \'ast.Module\'>':
             graph.add_vertex(name=(location + '/' + str(type(ast_node))), label=location.split('\\')[-1], color='red')
@@ -120,6 +130,17 @@ def parse_ast(ast_node, location):
     recursive_add_calls(ast_node, location)
     recursive_add_returns(ast_node, location)
 
-graph = igraph.Graph(directed=True)
-user_input = get_user_input()
-recursive_get_files(user_input)
+def main():
+    user_input = get_user_input()
+    build_report_folder()
+    recursive_get_files(user_input)
+
+    # if len(sys.argv) > 1:
+    #     build_report_folder()
+    #     for arg in sys.argv:
+    #         recursive_get_files(arg[1:])
+    # else:
+    #     print('No Arguments Entered')
+
+if __name__ == '__main__':
+    main()
