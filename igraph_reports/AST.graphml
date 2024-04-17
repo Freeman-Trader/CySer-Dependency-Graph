@@ -12,122 +12,132 @@
     <node id="n0">
       <data key="v_label">AST.py</data>
       <data key="v_color">red</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;</data>
     </node>
     <node id="n1">
       <data key="v_label">get_user_input()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/get_user_input</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\get_user_input</data>
     </node>
     <node id="n2">
       <data key="v_label">build_report_folder()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/build_report_folder</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\build_report_folder</data>
     </node>
     <node id="n3">
-      <data key="v_label">generate_ast_from_file()</data>
+      <data key="v_label">detect_encoding()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/generate_ast_from_file</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\detect_encoding</data>
     </node>
     <node id="n4">
-      <data key="v_label">recursive_get_files()</data>
+      <data key="v_label">generate_ast_from_file()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/recursive_get_files</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\generate_ast_from_file</data>
     </node>
     <node id="n5">
-      <data key="v_label">parse_ast()</data>
+      <data key="v_label">recursive_get_files()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\recursive_get_files</data>
     </node>
     <node id="n6">
-      <data key="v_label">recursive_add_nodes()</data>
+      <data key="v_label">parse_ast()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_nodes</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast</data>
     </node>
     <node id="n7">
-      <data key="v_label">recursive_add_children()</data>
+      <data key="v_label">recursive_add_nodes()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_children</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_nodes</data>
     </node>
     <node id="n8">
-      <data key="v_label">recursive_add_loose_statements()</data>
+      <data key="v_label">recursive_add_children()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_loose_statements</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_children</data>
     </node>
     <node id="n9">
-      <data key="v_label">recursive_add_calls()</data>
+      <data key="v_label">recursive_add_loose_statements()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_calls</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_loose_statements</data>
     </node>
     <node id="n10">
-      <data key="v_label">recursive_add_returns()</data>
+      <data key="v_label">recursive_add_calls()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_returns</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_calls</data>
     </node>
     <node id="n11">
-      <data key="v_label">main()</data>
+      <data key="v_label">recursive_add_returns()</data>
       <data key="v_color">green</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/main</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_returns</data>
     </node>
     <node id="n12">
-      <data key="v_label">loose</data>
-      <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;loose</data>
+      <data key="v_label">main()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\main</data>
     </node>
     <node id="n13">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/get_user_inputloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;loose</data>
     </node>
     <node id="n14">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/build_report_folderloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\get_user_inputloose</data>
     </node>
     <node id="n15">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/generate_ast_from_fileloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\build_report_folderloose</data>
     </node>
     <node id="n16">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/recursive_get_filesloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\detect_encodingloose</data>
     </node>
     <node id="n17">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_astloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\generate_ast_from_fileloose</data>
     </node>
     <node id="n18">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_nodesloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\recursive_get_filesloose</data>
     </node>
     <node id="n19">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_childrenloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_astloose</data>
     </node>
     <node id="n20">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_loose_statementsloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_nodesloose</data>
     </node>
     <node id="n21">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_callsloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_childrenloose</data>
     </node>
     <node id="n22">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/parse_ast/recursive_add_returnsloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_loose_statementsloose</data>
     </node>
     <node id="n23">
       <data key="v_label">loose</data>
       <data key="v_color">grey</data>
-      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py/&lt;class &apos;ast.Module&apos;&gt;/mainloose</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_callsloose</data>
+    </node>
+    <node id="n24">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\parse_ast\recursive_add_returnsloose</data>
+    </node>
+    <node id="n25">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\AST.py\&lt;class &apos;ast.Module&apos;&gt;\mainloose</data>
     </node>
     <edge source="n0" target="n1">
       <data key="e_color">blue</data>
@@ -144,82 +154,73 @@
     <edge source="n0" target="n5">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n5" target="n6">
+    <edge source="n0" target="n6">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n5" target="n7">
+    <edge source="n6" target="n7">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n5" target="n8">
+    <edge source="n6" target="n8">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n5" target="n9">
+    <edge source="n6" target="n9">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n5" target="n10">
+    <edge source="n6" target="n10">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n0" target="n11">
+    <edge source="n6" target="n11">
       <data key="e_color">blue</data>
     </edge>
     <edge source="n0" target="n12">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n1" target="n13">
+    <edge source="n0" target="n13">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n2" target="n14">
+    <edge source="n1" target="n14">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n3" target="n15">
+    <edge source="n2" target="n15">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n4" target="n16">
+    <edge source="n3" target="n16">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n5" target="n17">
+    <edge source="n4" target="n17">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n6" target="n18">
+    <edge source="n5" target="n18">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n7" target="n19">
+    <edge source="n6" target="n19">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n8" target="n20">
+    <edge source="n7" target="n20">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n9" target="n21">
+    <edge source="n8" target="n21">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n10" target="n22">
+    <edge source="n9" target="n22">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n11" target="n23">
+    <edge source="n10" target="n23">
       <data key="e_color">blue</data>
     </edge>
-    <edge source="n17" target="n6">
-      <data key="e_color">green</data>
+    <edge source="n11" target="n24">
+      <data key="e_color">blue</data>
     </edge>
-    <edge source="n17" target="n7">
-      <data key="e_color">green</data>
+    <edge source="n12" target="n25">
+      <data key="e_color">blue</data>
     </edge>
-    <edge source="n17" target="n8">
-      <data key="e_color">green</data>
-    </edge>
-    <edge source="n17" target="n9">
-      <data key="e_color">green</data>
-    </edge>
-    <edge source="n17" target="n10">
-      <data key="e_color">green</data>
-    </edge>
-    <edge source="n12" target="n11">
-      <data key="e_color">green</data>
-    </edge>
-    <edge source="n13" target="n1">
+    <edge source="n14" target="n1">
       <data key="e_color">red</data>
     </edge>
-    <edge source="n15" target="n3">
+    <edge source="n16" target="n3">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n17" target="n4">
       <data key="e_color">red</data>
     </edge>
   </graph>

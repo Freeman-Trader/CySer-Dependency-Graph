@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_color" for="node" attr.name="color" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="e_color" for="edge" attr.name="color" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_label">0054_alter_packagechangelog_software_version_and_more.py</data>
+      <data key="v_color">red</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\migrations\0054_alter_packagechangelog_software_version_and_more.py\&lt;class &apos;ast.Module&apos;&gt;</data>
+    </node>
+    <node id="n1">
+      <data key="v_label">Migration()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\migrations\0054_alter_packagechangelog_software_version_and_more.py\&lt;class &apos;ast.Module&apos;&gt;\Migration</data>
+    </node>
+    <node id="n2">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\migrations\0054_alter_packagechangelog_software_version_and_more.py\&lt;class &apos;ast.Module&apos;&gt;loose</data>
+    </node>
+    <node id="n3">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\migrations\0054_alter_packagechangelog_software_version_and_more.py\&lt;class &apos;ast.Module&apos;&gt;\Migrationloose</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_color">blue</data>
+    </edge>
+  </graph>
+</graphml>

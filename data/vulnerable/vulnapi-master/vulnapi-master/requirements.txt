@@ -1,0 +1,10 @@
+requests
+fastapi
+uvicorn
+python-multipart
+pyjwt
+passlib
+passlib[bcrypt]
+bcrypt
+pyyaml==3.13
+Jinja2

@@ -1,0 +1,92 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "vulnerablecode.settings"
+
+# Fail tests that render templates which make use of invalid template variables.
+FAIL_INVALID_TEMPLATE_VARS = true
+
+markers = [
+    "webtest",
+]
+
+norecursedirs = [
+   ".git",
+   "dist",
+   "build",
+   "_build",
+   "local",
+   "ci",
+   "docs",
+   "man",
+   "share",
+   "samples",
+   ".cache",
+   ".settings",
+   "thirdparty",
+   "tmp",
+   "venv",
+   "*/tests/test_data",
+   ".eggs",
+   "src/*/data",
+   "tests/*/data"
+]
+
+python_files = "*.py"
+
+python_classes = "Test"
+python_functions = "test"
+
+addopts = [
+    "-rfExXw",
+    "--strict-markers",
+    "--doctest-modules",
+    # Ignore the following doctests until these files are migrated to
+    # import-improve structure
+    "--ignore=vulnerabilities/importers/apache_httpd.py",
+    "--ignore=vulnerabilities/importers/apache_kafka.py",
+    "--ignore=vulnerabilities/importers/apache_tomcat.py",
+    "--ignore=vulnerabilities/importers/elixir_security.py",
+    "--ignore=vulnerabilities/importers/gentoo.py",
+    "--ignore=vulnerabilities/importers/istio.py",
+    "--ignore=vulnerabilities/importers/kaybee.py",
+    "--ignore=vulnerabilities/importers/npm.py",
+    "--ignore=vulnerabilities/importers/postgresql.py",
+    "--ignore=vulnerabilities/importers/project_kb_msr2019.py",
+    "--ignore=vulnerabilities/importers/retiredotnet.py",
+    "--ignore=vulnerabilities/importers/ruby.py",
+    "--ignore=vulnerabilities/importers/rust.py",
+    "--ignore=vulnerabilities/importers/safety_db.py",
+    "--ignore=vulnerabilities/importers/suse_backports.py",
+    "--ignore=vulnerabilities/importers/suse_scores.py",
+    "--ignore=vulnerabilities/importers/ubuntu_usn.py",
+    "--ignore=vulnerabilities/importers/mozilla.py",
+    "--ignore=vulnerabilities/importers/mattermost.py",
+    "--ignore=vulnerabilities/importers/xen.py",
+    "--ignore=vulnerabilities/management/commands/purl2cpe.py",
+    "--ignore=vulnerabilities/lib_oval.py",
+]
+
+[tool.black]
+line-length = 100
+include = '\.pyi?$'
+skip_gitignore = true
+# 'extend-exclude' excludes files or directories in addition to the defaults
+extend-exclude = '''
+(
+  ^/venv/.*
+  | ^/vulnerabilities/migrations/.*
+  | ^/vulnerabilities/tests/test_data/.*
+)
+'''
+
+
+[tool.isort]
+profile = "black"
+line_length = 100
+force_single_line = true
+skip_gitignore = true
+skip_glob = "vulnerabilities/migrations/*"

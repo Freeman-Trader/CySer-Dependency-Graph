@@ -18,7 +18,7 @@ def build_report_folder():
 # Opens up a file and parses into an AST object
 def generate_ast_from_file(filename):
     # Read the source code from the file
-    with open(filename, 'r') as file:
+    with open(filename, 'r', encoding='utf-8') as file:
         source_code = file.read()
 
     # Generate the AST
@@ -44,17 +44,17 @@ def recursive_get_files(name):
 def parse_ast(ast_node, location):
     def recursive_add_nodes(ast_node, location):
         if str(type(ast_node)) == '<class \'ast.Module\'>':
-            graph.add_vertex(name=(location + '/' + str(type(ast_node))), label=location.split('\\')[-1], color='red')
-        if str(type(ast_node)) == '<class \'ast.FunctionDef\'>':
-            graph.add_vertex(name=(location + '/' + ast_node.name), label=(ast_node.name + '()'), color='green')
+            graph.add_vertex(name=(location + '\\' + str(type(ast_node))), label=location.split('\\')[-1], color='red')
+        if str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.AsyncFunctionDef\'>':
+            graph.add_vertex(name=(location + '\\' + ast_node.name), label=(ast_node.name + '()'), color='green')
         if str(type(ast_node)) == '<class \'ast.ClassDef\'>':
-            graph.add_vertex(name=(location + '/' + ast_node.name), label=(ast_node.name + '()'), color='yellow')
+            graph.add_vertex(name=(location + '\\' + ast_node.name), label=(ast_node.name + '()'), color='yellow')
 
         if hasattr(ast_node, 'body'):
             if str(type(ast_node)) == '<class \'ast.Module\'>':
-                location = location + '/' + str(type(ast_node))
+                location = location + '\\' + str(type(ast_node))
             elif str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>':
-                location = location + '/' + ast_node.name
+                location = location + '\\' + ast_node.name
 
             for child in ast_node.body:
                 recursive_add_nodes(child, location)
@@ -63,13 +63,13 @@ def parse_ast(ast_node, location):
         if hasattr(ast_node, 'body'):
 
             if str(type(ast_node)) == '<class \'ast.Module\'>':
-                    location = location + '/' + str(type(ast_node))
+                    location = location + '\\' + str(type(ast_node))
             elif str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>':
-                    location = location + '/' + ast_node.name
+                    location = location + '\\' + ast_node.name
 
             for child in ast_node.body:
                 if hasattr(child, 'name'):
-                    graph.add_edge(location, (location + '/' + child.name), color='blue')
+                    graph.add_edge(location, (location + '\\' + child.name), color='blue')
                 
                 recursive_add_children(child, location)
 
@@ -77,9 +77,9 @@ def parse_ast(ast_node, location):
         if str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>' or str(type(ast_node)) == '<class \'ast.Module\'>':
             
             if str(type(ast_node)) == '<class \'ast.Module\'>':
-                    location = location + '/' + str(type(ast_node))
+                    location = location + '\\' + str(type(ast_node))
             elif str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>':
-                    location = location + '/' + ast_node.name
+                    location = location + '\\' + ast_node.name
             
             for child in ast_node.body:
 
@@ -94,18 +94,18 @@ def parse_ast(ast_node, location):
     def recursive_add_calls(ast_node, location):
         if hasattr(ast_node, 'value') and hasattr(ast_node.value, 'func') and hasattr(ast_node.value.func, 'id') and (location + '/' + ast_node.value.func.id in graph.vs._name_index):
             if str(type(ast_node)) == '<class \'ast.Module\'>':
-                graph.add_edge((location + '/' + str(type(ast_node))), (location + '/' + ast_node.value.func.id), color='green')
+                graph.add_edge((location + '\\' + str(type(ast_node))), (location + '\\' + ast_node.value.func.id), color='green')
             elif (str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>'):
-                graph.add_edge((location + '/' + ast_node.name), (location + '/' + ast_node.value.func.id), color='green')
+                graph.add_edge((location + '\\' + ast_node.name), (location + '\\' + ast_node.value.func.id), color='green')
             else:
-                graph.add_edge((location + 'loose'), (location + '/' + ast_node.value.func.id), color='green')
+                graph.add_edge((location + 'loose'), (location + '\\' + ast_node.value.func.id), color='green')
 
         if hasattr(ast_node, 'body'):
 
             if str(type(ast_node)) == '<class \'ast.Module\'>':
-                    location = location + '/' + str(type(ast_node))
+                    location = location + '\\' + str(type(ast_node))
             elif str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>':
-                    location = location + '/' + ast_node.name
+                    location = location + '\\' + ast_node.name
 
             for child in ast_node.body:
                 recursive_add_calls(child, location)
@@ -117,9 +117,9 @@ def parse_ast(ast_node, location):
         if hasattr(ast_node, 'body'):
 
             if str(type(ast_node)) == '<class \'ast.Module\'>':
-                    location = location + '/' + str(type(ast_node))
+                    location = location + '\\' + str(type(ast_node))
             elif str(type(ast_node)) == '<class \'ast.FunctionDef\'>' or str(type(ast_node)) == '<class \'ast.ClassDef\'>':
-                    location = location + '/' + ast_node.name
+                    location = location + '\\' + ast_node.name
 
             for child in ast_node.body:
                 recursive_add_returns(child, location)

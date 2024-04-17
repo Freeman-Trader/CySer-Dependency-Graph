@@ -1,0 +1,2153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_color" for="node" attr.name="color" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="e_color" for="edge" attr.name="color" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_label">models.py</data>
+      <data key="v_color">red</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;</data>
+    </node>
+    <node id="n1">
+      <data key="v_label">BaseQuerySet()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\BaseQuerySet</data>
+    </node>
+    <node id="n2">
+      <data key="v_label">get_or_none()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\BaseQuerySet\get_or_none</data>
+    </node>
+    <node id="n3">
+      <data key="v_label">paginated()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\BaseQuerySet\paginated</data>
+    </node>
+    <node id="n4">
+      <data key="v_label">VulnerabilityQuerySet()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet</data>
+    </node>
+    <node id="n5">
+      <data key="v_label">affecting_vulnerabilities()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\affecting_vulnerabilities</data>
+    </node>
+    <node id="n6">
+      <data key="v_label">with_cpes()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_cpes</data>
+    </node>
+    <node id="n7">
+      <data key="v_label">for_cpe()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\for_cpe</data>
+    </node>
+    <node id="n8">
+      <data key="v_label">with_cves()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_cves</data>
+    </node>
+    <node id="n9">
+      <data key="v_label">for_cve()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\for_cve</data>
+    </node>
+    <node id="n10">
+      <data key="v_label">with_packages()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_packages</data>
+    </node>
+    <node id="n11">
+      <data key="v_label">search()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\search</data>
+    </node>
+    <node id="n12">
+      <data key="v_label">with_package_counts()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_package_counts</data>
+    </node>
+    <node id="n13">
+      <data key="v_label">VulnerabilityStatusType()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityStatusType</data>
+    </node>
+    <node id="n14">
+      <data key="v_label">Vulnerability()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability</data>
+    </node>
+    <node id="n15">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\Meta</data>
+    </node>
+    <node id="n16">
+      <data key="v_label">__str__()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\__str__</data>
+    </node>
+    <node id="n17">
+      <data key="v_label">vcid()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\vcid</data>
+    </node>
+    <node id="n18">
+      <data key="v_label">severities()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\severities</data>
+    </node>
+    <node id="n19">
+      <data key="v_label">affected_packages()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\affected_packages</data>
+    </node>
+    <node id="n20">
+      <data key="v_label">fixed_by_packages()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\fixed_by_packages</data>
+    </node>
+    <node id="n21">
+      <data key="v_label">get_aliases()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_aliases</data>
+    </node>
+    <node id="n22">
+      <data key="v_label">get_status_label()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_status_label</data>
+    </node>
+    <node id="n23">
+      <data key="v_label">history()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\history</data>
+    </node>
+    <node id="n24">
+      <data key="v_label">get_absolute_url()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_absolute_url</data>
+    </node>
+    <node id="n25">
+      <data key="v_label">get_details_url()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_details_url</data>
+    </node>
+    <node id="n26">
+      <data key="v_label">get_related_cpes()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_related_cpes</data>
+    </node>
+    <node id="n27">
+      <data key="v_label">get_related_cves()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_related_cves</data>
+    </node>
+    <node id="n28">
+      <data key="v_label">get_affected_purls()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_affected_purls</data>
+    </node>
+    <node id="n29">
+      <data key="v_label">get_fixing_purls()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_fixing_purls</data>
+    </node>
+    <node id="n30">
+      <data key="v_label">get_related_purls()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_related_purls</data>
+    </node>
+    <node id="n31">
+      <data key="v_label">Weakness()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness</data>
+    </node>
+    <node id="n32">
+      <data key="v_label">weakness()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\weakness</data>
+    </node>
+    <node id="n33">
+      <data key="v_label">name()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\name</data>
+    </node>
+    <node id="n34">
+      <data key="v_label">description()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\description</data>
+    </node>
+    <node id="n35">
+      <data key="v_label">to_dict()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\to_dict</data>
+    </node>
+    <node id="n36">
+      <data key="v_label">VulnerabilityReferenceQuerySet()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReferenceQuerySet</data>
+    </node>
+    <node id="n37">
+      <data key="v_label">for_cpe()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReferenceQuerySet\for_cpe</data>
+    </node>
+    <node id="n38">
+      <data key="v_label">VulnerabilityReference()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference</data>
+    </node>
+    <node id="n39">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference\Meta</data>
+    </node>
+    <node id="n40">
+      <data key="v_label">__str__()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference\__str__</data>
+    </node>
+    <node id="n41">
+      <data key="v_label">is_cpe()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference\is_cpe</data>
+    </node>
+    <node id="n42">
+      <data key="v_label">VulnerabilityRelatedReference()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityRelatedReference</data>
+    </node>
+    <node id="n43">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityRelatedReference\Meta</data>
+    </node>
+    <node id="n44">
+      <data key="v_label">PackageQuerySet()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet</data>
+    </node>
+    <node id="n45">
+      <data key="v_label">get_fixed_by_package_versions()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\get_fixed_by_package_versions</data>
+    </node>
+    <node id="n46">
+      <data key="v_label">get_or_create_from_purl()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\get_or_create_from_purl</data>
+    </node>
+    <node id="n47">
+      <data key="v_label">affected()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\affected</data>
+    </node>
+    <node id="n48">
+      <data key="v_label">fixing()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\fixing</data>
+    </node>
+    <node id="n49">
+      <data key="v_label">with_vulnerability_counts()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\with_vulnerability_counts</data>
+    </node>
+    <node id="n50">
+      <data key="v_label">fixing_packages()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\fixing_packages</data>
+    </node>
+    <node id="n51">
+      <data key="v_label">search()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\search</data>
+    </node>
+    <node id="n52">
+      <data key="v_label">for_purl()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_purl</data>
+    </node>
+    <node id="n53">
+      <data key="v_label">with_cpes()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\with_cpes</data>
+    </node>
+    <node id="n54">
+      <data key="v_label">for_cpe()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_cpe</data>
+    </node>
+    <node id="n55">
+      <data key="v_label">with_cves()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\with_cves</data>
+    </node>
+    <node id="n56">
+      <data key="v_label">for_cve()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_cve</data>
+    </node>
+    <node id="n57">
+      <data key="v_label">for_purls()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_purls</data>
+    </node>
+    <node id="n58">
+      <data key="v_label">get_purl_query_lookups()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\get_purl_query_lookups</data>
+    </node>
+    <node id="n59">
+      <data key="v_label">Package()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package</data>
+    </node>
+    <node id="n60">
+      <data key="v_label">save()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\save</data>
+    </node>
+    <node id="n61">
+      <data key="v_label">purl()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\purl</data>
+    </node>
+    <node id="n62">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\Meta</data>
+    </node>
+    <node id="n63">
+      <data key="v_label">__str__()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\__str__</data>
+    </node>
+    <node id="n64">
+      <data key="v_label">affected_by()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\affected_by</data>
+    </node>
+    <node id="n65">
+      <data key="v_label">fixing()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixing</data>
+    </node>
+    <node id="n66">
+      <data key="v_label">fixed_packages()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixed_packages</data>
+    </node>
+    <node id="n67">
+      <data key="v_label">is_vulnerable()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\is_vulnerable</data>
+    </node>
+    <node id="n68">
+      <data key="v_label">history()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\history</data>
+    </node>
+    <node id="n69">
+      <data key="v_label">get_absolute_url()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_absolute_url</data>
+    </node>
+    <node id="n70">
+      <data key="v_label">get_details_url()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_details_url</data>
+    </node>
+    <node id="n71">
+      <data key="v_label">sort_by_version()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\sort_by_version</data>
+    </node>
+    <node id="n72">
+      <data key="v_label">version_class()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\version_class</data>
+    </node>
+    <node id="n73">
+      <data key="v_label">current_version()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\current_version</data>
+    </node>
+    <node id="n74">
+      <data key="v_label">fixed_package_details()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixed_package_details</data>
+    </node>
+    <node id="n75">
+      <data key="v_label">get_non_vulnerable_versions()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_non_vulnerable_versions</data>
+    </node>
+    <node id="n76">
+      <data key="v_label">get_affecting_vulnerabilities()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_affecting_vulnerabilities</data>
+    </node>
+    <node id="n77">
+      <data key="v_label">fixing_vulnerabilities()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixing_vulnerabilities</data>
+    </node>
+    <node id="n78">
+      <data key="v_label">affecting_vulnerabilities()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\affecting_vulnerabilities</data>
+    </node>
+    <node id="n79">
+      <data key="v_label">PackageRelatedVulnerability()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability</data>
+    </node>
+    <node id="n80">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\Meta</data>
+    </node>
+    <node id="n81">
+      <data key="v_label">__str__()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\__str__</data>
+    </node>
+    <node id="n82">
+      <data key="v_label">update_or_create()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\update_or_create</data>
+    </node>
+    <node id="n83">
+      <data key="v_label">add_package_vulnerability_changelog()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\add_package_vulnerability_changelog</data>
+    </node>
+    <node id="n84">
+      <data key="v_label">VulnerabilitySeverity()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilitySeverity</data>
+    </node>
+    <node id="n85">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilitySeverity\Meta</data>
+    </node>
+    <node id="n86">
+      <data key="v_label">AliasQuerySet()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\AliasQuerySet</data>
+    </node>
+    <node id="n87">
+      <data key="v_label">for_cve()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\AliasQuerySet\for_cve</data>
+    </node>
+    <node id="n88">
+      <data key="v_label">Alias()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias</data>
+    </node>
+    <node id="n89">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias\Meta</data>
+    </node>
+    <node id="n90">
+      <data key="v_label">__str__()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias\__str__</data>
+    </node>
+    <node id="n91">
+      <data key="v_label">url()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias\url</data>
+    </node>
+    <node id="n92">
+      <data key="v_label">AdvisoryQuerySet()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\AdvisoryQuerySet</data>
+    </node>
+    <node id="n93">
+      <data key="v_label">Advisory()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory</data>
+    </node>
+    <node id="n94">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory\Meta</data>
+    </node>
+    <node id="n95">
+      <data key="v_label">save()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory\save</data>
+    </node>
+    <node id="n96">
+      <data key="v_label">to_advisory_data()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory\to_advisory_data</data>
+    </node>
+    <node id="n97">
+      <data key="v_label">ApiUserManager()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserManager</data>
+    </node>
+    <node id="n98">
+      <data key="v_label">create_api_user()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserManager\create_api_user</data>
+    </node>
+    <node id="n99">
+      <data key="v_label">_validate_username()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserManager\_validate_username</data>
+    </node>
+    <node id="n100">
+      <data key="v_label">ApiUser()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUser</data>
+    </node>
+    <node id="n101">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUser\Meta</data>
+    </node>
+    <node id="n102">
+      <data key="v_label">ChangeLog()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog</data>
+    </node>
+    <node id="n103">
+      <data key="v_label">get_action_type_label()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog\get_action_type_label</data>
+    </node>
+    <node id="n104">
+      <data key="v_label">get_iso_time()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog\get_iso_time</data>
+    </node>
+    <node id="n105">
+      <data key="v_label">Meta()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog\Meta</data>
+    </node>
+    <node id="n106">
+      <data key="v_label">VulnerabilityHistoryManager()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityHistoryManager</data>
+    </node>
+    <node id="n107">
+      <data key="v_label">get_for_object()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityHistoryManager\get_for_object</data>
+    </node>
+    <node id="n108">
+      <data key="v_label">log_action()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityHistoryManager\log_action</data>
+    </node>
+    <node id="n109">
+      <data key="v_label">VulnerabilityChangeLog()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityChangeLog</data>
+    </node>
+    <node id="n110">
+      <data key="v_label">log_import()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityChangeLog\log_import</data>
+    </node>
+    <node id="n111">
+      <data key="v_label">log_improve()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityChangeLog\log_improve</data>
+    </node>
+    <node id="n112">
+      <data key="v_label">PackageHistoryManager()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageHistoryManager</data>
+    </node>
+    <node id="n113">
+      <data key="v_label">get_for_object()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageHistoryManager\get_for_object</data>
+    </node>
+    <node id="n114">
+      <data key="v_label">log_action()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageHistoryManager\log_action</data>
+    </node>
+    <node id="n115">
+      <data key="v_label">PackageChangeLog()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageChangeLog</data>
+    </node>
+    <node id="n116">
+      <data key="v_label">log_affected_by()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageChangeLog\log_affected_by</data>
+    </node>
+    <node id="n117">
+      <data key="v_label">log_fixing()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageChangeLog\log_fixing</data>
+    </node>
+    <node id="n118">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;loose</data>
+    </node>
+    <node id="n119">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\BaseQuerySetloose</data>
+    </node>
+    <node id="n120">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\BaseQuerySet\get_or_noneloose</data>
+    </node>
+    <node id="n121">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\BaseQuerySet\paginatedloose</data>
+    </node>
+    <node id="n122">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySetloose</data>
+    </node>
+    <node id="n123">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\affecting_vulnerabilitiesloose</data>
+    </node>
+    <node id="n124">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_cpesloose</data>
+    </node>
+    <node id="n125">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\for_cpeloose</data>
+    </node>
+    <node id="n126">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_cvesloose</data>
+    </node>
+    <node id="n127">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\for_cveloose</data>
+    </node>
+    <node id="n128">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_packagesloose</data>
+    </node>
+    <node id="n129">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\searchloose</data>
+    </node>
+    <node id="n130">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityQuerySet\with_package_countsloose</data>
+    </node>
+    <node id="n131">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityStatusTypeloose</data>
+    </node>
+    <node id="n132">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerabilityloose</data>
+    </node>
+    <node id="n133">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\Metaloose</data>
+    </node>
+    <node id="n134">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\__str__loose</data>
+    </node>
+    <node id="n135">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\vcidloose</data>
+    </node>
+    <node id="n136">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\severitiesloose</data>
+    </node>
+    <node id="n137">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\affected_packagesloose</data>
+    </node>
+    <node id="n138">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\fixed_by_packagesloose</data>
+    </node>
+    <node id="n139">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_aliasesloose</data>
+    </node>
+    <node id="n140">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_status_labelloose</data>
+    </node>
+    <node id="n141">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\historyloose</data>
+    </node>
+    <node id="n142">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_absolute_urlloose</data>
+    </node>
+    <node id="n143">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_details_urlloose</data>
+    </node>
+    <node id="n144">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_related_cpesloose</data>
+    </node>
+    <node id="n145">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_related_cvesloose</data>
+    </node>
+    <node id="n146">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_affected_purlsloose</data>
+    </node>
+    <node id="n147">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_fixing_purlsloose</data>
+    </node>
+    <node id="n148">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Vulnerability\get_related_purlsloose</data>
+    </node>
+    <node id="n149">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weaknessloose</data>
+    </node>
+    <node id="n150">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\weaknessloose</data>
+    </node>
+    <node id="n151">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\nameloose</data>
+    </node>
+    <node id="n152">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\descriptionloose</data>
+    </node>
+    <node id="n153">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Weakness\to_dictloose</data>
+    </node>
+    <node id="n154">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReferenceQuerySetloose</data>
+    </node>
+    <node id="n155">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReferenceQuerySet\for_cpeloose</data>
+    </node>
+    <node id="n156">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReferenceloose</data>
+    </node>
+    <node id="n157">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference\Metaloose</data>
+    </node>
+    <node id="n158">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference\__str__loose</data>
+    </node>
+    <node id="n159">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityReference\is_cpeloose</data>
+    </node>
+    <node id="n160">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityRelatedReferenceloose</data>
+    </node>
+    <node id="n161">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityRelatedReference\Metaloose</data>
+    </node>
+    <node id="n162">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySetloose</data>
+    </node>
+    <node id="n163">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\get_fixed_by_package_versionsloose</data>
+    </node>
+    <node id="n164">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\get_or_create_from_purlloose</data>
+    </node>
+    <node id="n165">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\affectedloose</data>
+    </node>
+    <node id="n166">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\fixingloose</data>
+    </node>
+    <node id="n167">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\with_vulnerability_countsloose</data>
+    </node>
+    <node id="n168">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\fixing_packagesloose</data>
+    </node>
+    <node id="n169">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\searchloose</data>
+    </node>
+    <node id="n170">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_purlloose</data>
+    </node>
+    <node id="n171">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\with_cpesloose</data>
+    </node>
+    <node id="n172">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_cpeloose</data>
+    </node>
+    <node id="n173">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\with_cvesloose</data>
+    </node>
+    <node id="n174">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_cveloose</data>
+    </node>
+    <node id="n175">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageQuerySet\for_purlsloose</data>
+    </node>
+    <node id="n176">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\get_purl_query_lookupsloose</data>
+    </node>
+    <node id="n177">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Packageloose</data>
+    </node>
+    <node id="n178">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\saveloose</data>
+    </node>
+    <node id="n179">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\purlloose</data>
+    </node>
+    <node id="n180">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\Metaloose</data>
+    </node>
+    <node id="n181">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\__str__loose</data>
+    </node>
+    <node id="n182">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\affected_byloose</data>
+    </node>
+    <node id="n183">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixingloose</data>
+    </node>
+    <node id="n184">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixed_packagesloose</data>
+    </node>
+    <node id="n185">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\is_vulnerableloose</data>
+    </node>
+    <node id="n186">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\historyloose</data>
+    </node>
+    <node id="n187">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_absolute_urlloose</data>
+    </node>
+    <node id="n188">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_details_urlloose</data>
+    </node>
+    <node id="n189">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\sort_by_versionloose</data>
+    </node>
+    <node id="n190">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\version_classloose</data>
+    </node>
+    <node id="n191">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\current_versionloose</data>
+    </node>
+    <node id="n192">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixed_package_detailsloose</data>
+    </node>
+    <node id="n193">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_non_vulnerable_versionsloose</data>
+    </node>
+    <node id="n194">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\get_affecting_vulnerabilitiesloose</data>
+    </node>
+    <node id="n195">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\fixing_vulnerabilitiesloose</data>
+    </node>
+    <node id="n196">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Package\affecting_vulnerabilitiesloose</data>
+    </node>
+    <node id="n197">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerabilityloose</data>
+    </node>
+    <node id="n198">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\Metaloose</data>
+    </node>
+    <node id="n199">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\__str__loose</data>
+    </node>
+    <node id="n200">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\update_or_createloose</data>
+    </node>
+    <node id="n201">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageRelatedVulnerability\add_package_vulnerability_changelogloose</data>
+    </node>
+    <node id="n202">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilitySeverityloose</data>
+    </node>
+    <node id="n203">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilitySeverity\Metaloose</data>
+    </node>
+    <node id="n204">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\AliasQuerySetloose</data>
+    </node>
+    <node id="n205">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\AliasQuerySet\for_cveloose</data>
+    </node>
+    <node id="n206">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Aliasloose</data>
+    </node>
+    <node id="n207">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias\Metaloose</data>
+    </node>
+    <node id="n208">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias\__str__loose</data>
+    </node>
+    <node id="n209">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Alias\urlloose</data>
+    </node>
+    <node id="n210">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\AdvisoryQuerySetloose</data>
+    </node>
+    <node id="n211">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisoryloose</data>
+    </node>
+    <node id="n212">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory\Metaloose</data>
+    </node>
+    <node id="n213">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory\saveloose</data>
+    </node>
+    <node id="n214">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\Advisory\to_advisory_dataloose</data>
+    </node>
+    <node id="n215">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserManagerloose</data>
+    </node>
+    <node id="n216">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserManager\create_api_userloose</data>
+    </node>
+    <node id="n217">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserManager\_validate_usernameloose</data>
+    </node>
+    <node id="n218">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUserloose</data>
+    </node>
+    <node id="n219">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ApiUser\Metaloose</data>
+    </node>
+    <node id="n220">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLogloose</data>
+    </node>
+    <node id="n221">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog\get_action_type_labelloose</data>
+    </node>
+    <node id="n222">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog\get_iso_timeloose</data>
+    </node>
+    <node id="n223">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\ChangeLog\Metaloose</data>
+    </node>
+    <node id="n224">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityHistoryManagerloose</data>
+    </node>
+    <node id="n225">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityHistoryManager\get_for_objectloose</data>
+    </node>
+    <node id="n226">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityHistoryManager\log_actionloose</data>
+    </node>
+    <node id="n227">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityChangeLogloose</data>
+    </node>
+    <node id="n228">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityChangeLog\log_importloose</data>
+    </node>
+    <node id="n229">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\VulnerabilityChangeLog\log_improveloose</data>
+    </node>
+    <node id="n230">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageHistoryManagerloose</data>
+    </node>
+    <node id="n231">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageHistoryManager\get_for_objectloose</data>
+    </node>
+    <node id="n232">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageHistoryManager\log_actionloose</data>
+    </node>
+    <node id="n233">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageChangeLogloose</data>
+    </node>
+    <node id="n234">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageChangeLog\log_affected_byloose</data>
+    </node>
+    <node id="n235">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\models.py\&lt;class &apos;ast.Module&apos;&gt;\PackageChangeLog\log_fixingloose</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n7">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n11">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n16">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n17">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n18">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n19">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n20">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n21">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n22">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n23">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n24">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n26">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n27">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n28">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n29">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n30">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n31">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n31" target="n32">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n31" target="n33">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n31" target="n34">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n31" target="n35">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n36">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n36" target="n37">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n38">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n38" target="n39">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n38" target="n40">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n38" target="n41">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n42">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n42" target="n43">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n44">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n45">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n46">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n47">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n48">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n49">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n50">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n51">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n52">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n53">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n54">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n55">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n56">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n57">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n58">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n59">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n60">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n61">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n62">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n63">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n64">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n65">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n66">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n67">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n68">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n69">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n70">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n71">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n72">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n73">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n74">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n75">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n76">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n77">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n78">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n79">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n79" target="n80">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n79" target="n81">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n79" target="n82">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n79" target="n83">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n84">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n84" target="n85">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n86">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n86" target="n87">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n88">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n88" target="n89">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n88" target="n90">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n88" target="n91">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n92">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n93">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n93" target="n94">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n93" target="n95">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n93" target="n96">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n97">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n97" target="n98">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n97" target="n99">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n100">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n100" target="n101">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n102">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n102" target="n103">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n102" target="n104">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n102" target="n105">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n106">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n106" target="n107">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n106" target="n108">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n109">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n109" target="n110">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n109" target="n111">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n112">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n112" target="n113">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n112" target="n114">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n115">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n115" target="n116">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n115" target="n117">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n118">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n119">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n2" target="n120">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n3" target="n121">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n122">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n5" target="n123">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n6" target="n124">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n7" target="n125">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n8" target="n126">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n9" target="n127">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n10" target="n128">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n11" target="n129">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n12" target="n130">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n13" target="n131">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n132">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n15" target="n133">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n16" target="n134">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n17" target="n135">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n18" target="n136">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n19" target="n137">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n20" target="n138">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n21" target="n139">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n22" target="n140">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n23" target="n141">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n24" target="n142">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n25" target="n143">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n26" target="n144">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n27" target="n145">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n28" target="n146">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n29" target="n147">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n30" target="n148">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n31" target="n149">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n32" target="n150">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n33" target="n151">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n34" target="n152">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n35" target="n153">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n36" target="n154">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n37" target="n155">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n38" target="n156">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n39" target="n157">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n40" target="n158">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n41" target="n159">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n42" target="n160">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n43" target="n161">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n44" target="n162">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n45" target="n163">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n46" target="n164">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n47" target="n165">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n48" target="n166">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n49" target="n167">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n50" target="n168">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n51" target="n169">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n52" target="n170">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n53" target="n171">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n54" target="n172">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n55" target="n173">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n56" target="n174">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n57" target="n175">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n58" target="n176">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n59" target="n177">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n60" target="n178">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n61" target="n179">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n62" target="n180">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n63" target="n181">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n64" target="n182">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n65" target="n183">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n66" target="n184">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n67" target="n185">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n68" target="n186">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n69" target="n187">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n70" target="n188">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n71" target="n189">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n72" target="n190">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n73" target="n191">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n74" target="n192">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n75" target="n193">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n76" target="n194">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n77" target="n195">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n78" target="n196">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n79" target="n197">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n80" target="n198">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n81" target="n199">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n82" target="n200">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n83" target="n201">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n84" target="n202">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n85" target="n203">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n86" target="n204">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n87" target="n205">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n88" target="n206">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n89" target="n207">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n90" target="n208">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n91" target="n209">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n92" target="n210">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n93" target="n211">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n94" target="n212">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n95" target="n213">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n96" target="n214">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n97" target="n215">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n98" target="n216">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n99" target="n217">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n100" target="n218">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n101" target="n219">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n102" target="n220">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n103" target="n221">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n104" target="n222">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n105" target="n223">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n106" target="n224">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n107" target="n225">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n108" target="n226">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n109" target="n227">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n110" target="n228">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n111" target="n229">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n112" target="n230">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n113" target="n231">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n114" target="n232">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n115" target="n233">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n116" target="n234">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n117" target="n235">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n120" target="n2">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n123" target="n5">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n124" target="n6">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n125" target="n7">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n126" target="n8">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n127" target="n9">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n128" target="n10">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n129" target="n11">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n129" target="n11">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n130" target="n12">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n134" target="n16">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n135" target="n17">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n136" target="n18">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n137" target="n19">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n138" target="n20">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n139" target="n21">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n140" target="n22">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n141" target="n23">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n142" target="n24">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n143" target="n25">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n144" target="n26">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n145" target="n27">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n146" target="n28">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n147" target="n29">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n148" target="n30">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n150" target="n32">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n151" target="n33">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n152" target="n34">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n153" target="n35">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n155" target="n37">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n158" target="n40">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n159" target="n41">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n163" target="n45">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n164" target="n46">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n165" target="n47">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n166" target="n48">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n167" target="n49">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n168" target="n50">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n169" target="n51">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n169" target="n51">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n170" target="n52">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n171" target="n53">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n172" target="n54">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n173" target="n55">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n174" target="n56">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n175" target="n57">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n176" target="n58">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n179" target="n61">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n181" target="n63">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n182" target="n64">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n183" target="n65">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n184" target="n66">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n185" target="n67">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n186" target="n68">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n187" target="n69">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n188" target="n70">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n189" target="n71">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n189" target="n71">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n190" target="n72">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n190" target="n72">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n191" target="n73">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n192" target="n74">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n193" target="n75">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n193" target="n75">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n194" target="n76">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n195" target="n77">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n196" target="n78">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n199" target="n81">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n205" target="n87">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n208" target="n90">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n209" target="n91">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n209" target="n91">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n209" target="n91">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n214" target="n96">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n216" target="n98">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n221" target="n103">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n222" target="n104">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n225" target="n107">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n226" target="n108">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n228" target="n110">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n229" target="n111">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n231" target="n113">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n232" target="n114">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n234" target="n116">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n235" target="n117">
+      <data key="e_color">red</data>
+    </edge>
+  </graph>
+</graphml>

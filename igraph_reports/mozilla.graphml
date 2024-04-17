@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_color" for="node" attr.name="color" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="e_color" for="edge" attr.name="color" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_label">mozilla.py</data>
+      <data key="v_color">red</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;</data>
+    </node>
+    <node id="n1">
+      <data key="v_label">MozillaImporter()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\MozillaImporter</data>
+    </node>
+    <node id="n2">
+      <data key="v_label">advisory_data()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\MozillaImporter\advisory_data</data>
+    </node>
+    <node id="n3">
+      <data key="v_label">to_advisories()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\to_advisories</data>
+    </node>
+    <node id="n4">
+      <data key="v_label">get_advisories_from_yml()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_advisories_from_yml</data>
+    </node>
+    <node id="n5">
+      <data key="v_label">get_advisories_from_md()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_advisories_from_md</data>
+    </node>
+    <node id="n6">
+      <data key="v_label">html_get_p_under_h3()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\html_get_p_under_h3</data>
+    </node>
+    <node id="n7">
+      <data key="v_label">mfsa_id_from_filename()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\mfsa_id_from_filename</data>
+    </node>
+    <node id="n8">
+      <data key="v_label">get_affected_packages()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_affected_packages</data>
+    </node>
+    <node id="n9">
+      <data key="v_label">get_yml_references()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_yml_references</data>
+    </node>
+    <node id="n10">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;loose</data>
+    </node>
+    <node id="n11">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\MozillaImporterloose</data>
+    </node>
+    <node id="n12">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\MozillaImporter\advisory_dataloose</data>
+    </node>
+    <node id="n13">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\to_advisoriesloose</data>
+    </node>
+    <node id="n14">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_advisories_from_ymlloose</data>
+    </node>
+    <node id="n15">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_advisories_from_mdloose</data>
+    </node>
+    <node id="n16">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\html_get_p_under_h3loose</data>
+    </node>
+    <node id="n17">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\mfsa_id_from_filenameloose</data>
+    </node>
+    <node id="n18">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_affected_packagesloose</data>
+    </node>
+    <node id="n19">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerablecode-main\vulnerabilities\importers\mozilla.py\&lt;class &apos;ast.Module&apos;&gt;\get_yml_referencesloose</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n3" target="n13">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n14">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n5" target="n15">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n6" target="n16">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n7" target="n17">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n8" target="n18">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n9" target="n19">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n13" target="n3">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n13" target="n3">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n14" target="n4">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n16" target="n6">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n17" target="n7">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n17" target="n7">
+      <data key="e_color">red</data>
+    </edge>
+    <edge source="n19" target="n9">
+      <data key="e_color">red</data>
+    </edge>
+  </graph>
+</graphml>

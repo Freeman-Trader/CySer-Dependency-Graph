@@ -1,0 +1,121 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Sphinx
+docs/_build
+docs/bin
+docs/build
+docs/include
+docs/Lib
+doc/pyvenv.cfg
+pyvenv.cfg
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv and pip
+.python-version
+pyvenv.cfg
+bin/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+
+# mypy
+.mypy_cache/
+
+
+# Database
+*.sqlite3*
+
+# Staticfiles
+staticfiles/
+
+# virtualenv
+bin
+include
+lib64
+share
+Pipfile
+
+# editors
+.vscode
+# PyCharm
+.idea/
+
+# pytest
+.pytest_cache
+
+
+# Various junk and temp files
+.DS_Store
+*~
+.*.sw[po]
+.build
+.ve
+*.bak
+/.cache/
+/tmp/
+
+# pyenv
+/.python-version
+/man/
+/.pytest_cache/
+lib64
+tcl
+
+# Ignore Jupyter Notebook related temp files
+.ipynb_checkpoints/

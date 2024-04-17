@@ -1,0 +1,36 @@
+[{
+    "username": "luke",
+    "full_name": "Luke Skywalker",
+    "email": "luke@rebelalliance.com",
+    "hashed_password": "$2b$12$eX08vt9QyPA73o6A8x4kNumopV/KWR3qZYfhOKpd6prE2BWF28YUq",
+    "plaintext": "tatooine",
+    "disabled": "False",
+    "admin": "False"
+},
+{
+    "username": "leia",
+    "full_name": "Leia Organa",
+    "email": "leia@rebelalliance.com",
+    "hashed_password": "$2b$12$RxKAL3NB7X7Ivz.FuszlmubVpqqd3y4DE7/VJ4CPedi0w65N1dXla",
+    "plaintext": "helpusobiwan",
+    "disabled": "False",
+    "admin": "False"
+},
+{
+    "username": "sheev",
+    "full_name": "Sheev Palpatine",
+    "email": "sp@senate.coruscant",
+    "hashed_password": "$2b$12$A3s.ck31ryiogEkWxHjBEeqSY4o2ea1CNmuQjaPiBUGkwFQMwav5u",
+    "plaintext": "darkside",
+    "disabled": "False",
+    "admin": "False"
+},
+{
+    "username": "boba",
+    "full_name": "Boba Fett",
+    "email": "boba@fett.com",
+    "hashed_password": "$2b$12$UbMWy8Z6qRXdMswkrazct.B5cSbYAJwlZviHs0HjhVk4IKy5yBE7C",
+    "plaintext": "hunt",
+    "disabled": "False",
+    "admin": "False"
+}]
