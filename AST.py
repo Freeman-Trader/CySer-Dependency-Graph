@@ -2,6 +2,7 @@
 import os
 import ast
 import igraph
+import pickle
 
 reports_folder_name = 'igraph_reports'
 reports_folder_abs_path = os.path.abspath('AST.py') + '\\..\\' + reports_folder_name
@@ -35,11 +36,33 @@ def recursive_get_files(name):
         graph.clear()
         print("Dependency Graph Created")
 
-    elif os.path.isdir(name):
+    elif os.path.isdir(name): 
         print("Found Directory")
-        for it in os.scandir(name):
-            if os.path.isfile(it.path) or os.path.isdir(it.path):
-                recursive_get_files(it.path)
+        for dir in os.scandir(name):
+            #if os.path.isfile(dir.path) or os.path.isdir(dir.path):
+            if os.path.isdir(dir.path):
+                if not os.path.isdir(reports_folder_abs_path + '\\' + name):
+                    os.mkdir(reports_folder_abs_path + '\\' + name)
+                
+            recursive_get_files(dir.path)
+
+
+
+def get_files(directory):
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.py'):
+                file_path = os.path.join(root, file)
+                
+                #graph = create_igraph(file_path)
+                parse_ast(generate_ast_from_file(file), file_path)
+                
+                class_name = os.path.basename(root)
+                output_dir = os.path.join(os.path.dirname(directory), "igraph_reports", class_name)
+                os.makedirs(output_dir, exist_ok=True)
+                graph_file_name = os.path.join(output_dir, f"{file.split('.')[0]}.pkl")
+                with open(graph_file_name, 'wb') as f:
+                    pickle.dump(graph, f)
 
 def parse_ast(ast_node, location):
     def recursive_add_nodes(ast_node, location):
@@ -134,6 +157,7 @@ def main():
     user_input = get_user_input()
     build_report_folder()
     recursive_get_files(user_input)
+    #get_files(user_input)
 
     # if len(sys.argv) > 1:
     #     build_report_folder()
