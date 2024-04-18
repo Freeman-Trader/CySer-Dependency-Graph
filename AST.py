@@ -33,7 +33,9 @@ def recursive_get_files(folder_path, name):
         print("Found File")
         parse_ast(generate_ast_from_file(name), os.getcwd() + "\\" + name)
         #igraph.plot(graph, name.split('.')[0] + '.png', margin=50, layout='reingold_tilford', vertex_label_size=14, vertex_size=34)
-        igraph.write(graph, folder_path + '\\' + name.split('.')[0].split('\\')[-1] + '.graphml')
+        #igraph.write(graph, folder_path + '\\' + name.split('.')[0].split('\\')[-1] + '.pkl')
+        with open(folder_path + '\\' + name.split('.')[0].split('\\')[-1] + '.pkl', 'wb') as f:
+            pickle.dump(graph, f)
         graph.clear()
         print("Dependency Graph Created")
 
