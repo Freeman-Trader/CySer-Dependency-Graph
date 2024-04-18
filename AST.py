@@ -20,7 +20,7 @@ def build_report_folder():
 # Opens up a file and parses into an AST object
 def generate_ast_from_file(filename):
     # Read the source code from the file
-    with open(filename, 'r', encoding='utf-8') as file:
+    with open(filename, 'r') as file:
         source_code = file.read()
 
     # Generate the AST
@@ -136,17 +136,14 @@ def parse_ast(ast_node, location):
     recursive_add_returns(ast_node, location)
 
 def main():
-    user_input = get_user_input()
+    user_input = None
+    while user_input is None or len(user_input.split('\\')) != 1:
+        user_input = get_user_input()
+        if user_input is None or len(user_input.split('\\')) != 1:
+            print('Input not Accepted')
     build_report_folder()
     recursive_get_files(reports_folder_path, user_input)
-    #get_files(user_input)
 
-    # if len(sys.argv) > 1:
-    #     build_report_folder()
-    #     for arg in sys.argv:
-    #         recursive_get_files(arg[1:])
-    # else:
-    #     print('No Arguments Entered')
 
 if __name__ == '__main__':
     main()
