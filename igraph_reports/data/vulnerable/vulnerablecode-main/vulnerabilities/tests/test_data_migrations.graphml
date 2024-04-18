@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_label" for="node" attr.name="label" attr.type="string"/>
+  <key id="v_color" for="node" attr.name="color" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="e_color" for="edge" attr.name="color" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_label">test_data_migrations.py</data>
+      <data key="v_color">red</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;</data>
+    </node>
+    <node id="n1">
+      <data key="v_label">TestMigrations()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations</data>
+    </node>
+    <node id="n2">
+      <data key="v_label">app()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations\app</data>
+    </node>
+    <node id="n3">
+      <data key="v_label">setUp()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations\setUp</data>
+    </node>
+    <node id="n4">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations\setUpBeforeMigration</data>
+    </node>
+    <node id="n5">
+      <data key="v_label">DuplicateSeverityTestCase()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DuplicateSeverityTestCase</data>
+    </node>
+    <node id="n6">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DuplicateSeverityTestCase\setUpBeforeMigration</data>
+    </node>
+    <node id="n7">
+      <data key="v_label">test_remove_duplicate_rows()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DuplicateSeverityTestCase\test_remove_duplicate_rows</data>
+    </node>
+    <node id="n8">
+      <data key="v_label">DropVulnerabilityFromSeverityTestCase()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DropVulnerabilityFromSeverityTestCase</data>
+    </node>
+    <node id="n9">
+      <data key="v_label">test_dropping_vulnerability_from_severity()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DropVulnerabilityFromSeverityTestCase\test_dropping_vulnerability_from_severity</data>
+    </node>
+    <node id="n10">
+      <data key="v_label">UpdateCPEURL()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\UpdateCPEURL</data>
+    </node>
+    <node id="n11">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\UpdateCPEURL\setUpBeforeMigration</data>
+    </node>
+    <node id="n12">
+      <data key="v_label">test_cpe_url_update()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\UpdateCPEURL\test_cpe_url_update</data>
+    </node>
+    <node id="n13">
+      <data key="v_label">TestCvssVectorMigrationToScoringElementComputeNewScores()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementComputeNewScores</data>
+    </node>
+    <node id="n14">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementComputeNewScores\setUpBeforeMigration</data>
+    </node>
+    <node id="n15">
+      <data key="v_label">test_compute_cvss()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementComputeNewScores\test_compute_cvss</data>
+    </node>
+    <node id="n16">
+      <data key="v_label">TestCvssVectorMigrationToScoringElementMergeRows()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRows</data>
+    </node>
+    <node id="n17">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRows\setUpBeforeMigration</data>
+    </node>
+    <node id="n18">
+      <data key="v_label">test_merge_rows()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRows\test_merge_rows</data>
+    </node>
+    <node id="n19">
+      <data key="v_label">TestCvssVectorMigrationToScoringElementMergeRowsWithDupes()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsWithDupes</data>
+    </node>
+    <node id="n20">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsWithDupes\setUpBeforeMigration</data>
+    </node>
+    <node id="n21">
+      <data key="v_label">test_merge_rows()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsWithDupes\test_merge_rows</data>
+    </node>
+    <node id="n22">
+      <data key="v_label">RemoveCorrupteAdvisories()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveCorrupteAdvisories</data>
+    </node>
+    <node id="n23">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveCorrupteAdvisories\setUpBeforeMigration</data>
+    </node>
+    <node id="n24">
+      <data key="v_label">test_removal_of_corrupted_advisory()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveCorrupteAdvisories\test_removal_of_corrupted_advisory</data>
+    </node>
+    <node id="n25">
+      <data key="v_label">RemoveVulnerabilitiesWithEmptyAliases()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveVulnerabilitiesWithEmptyAliases</data>
+    </node>
+    <node id="n26">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveVulnerabilitiesWithEmptyAliases\setUpBeforeMigration</data>
+    </node>
+    <node id="n27">
+      <data key="v_label">test_removal_of_corrupted_vulns()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveVulnerabilitiesWithEmptyAliases\test_removal_of_corrupted_vulns</data>
+    </node>
+    <node id="n28">
+      <data key="v_label">TestRemoveDupedPurlsWithSameQualifiers()</data>
+      <data key="v_color">yellow</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestRemoveDupedPurlsWithSameQualifiers</data>
+    </node>
+    <node id="n29">
+      <data key="v_label">setUpBeforeMigration()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestRemoveDupedPurlsWithSameQualifiers\setUpBeforeMigration</data>
+    </node>
+    <node id="n30">
+      <data key="v_label">test_removal_of_duped_purls()</data>
+      <data key="v_color">green</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestRemoveDupedPurlsWithSameQualifiers\test_removal_of_duped_purls</data>
+    </node>
+    <node id="n31">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;loose</data>
+    </node>
+    <node id="n32">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrationsloose</data>
+    </node>
+    <node id="n33">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations\apploose</data>
+    </node>
+    <node id="n34">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations\setUploose</data>
+    </node>
+    <node id="n35">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestMigrations\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n36">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DuplicateSeverityTestCaseloose</data>
+    </node>
+    <node id="n37">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DuplicateSeverityTestCase\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n38">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DuplicateSeverityTestCase\test_remove_duplicate_rowsloose</data>
+    </node>
+    <node id="n39">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DropVulnerabilityFromSeverityTestCaseloose</data>
+    </node>
+    <node id="n40">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\DropVulnerabilityFromSeverityTestCase\test_dropping_vulnerability_from_severityloose</data>
+    </node>
+    <node id="n41">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\UpdateCPEURLloose</data>
+    </node>
+    <node id="n42">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\UpdateCPEURL\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n43">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\UpdateCPEURL\test_cpe_url_updateloose</data>
+    </node>
+    <node id="n44">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementComputeNewScoresloose</data>
+    </node>
+    <node id="n45">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementComputeNewScores\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n46">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementComputeNewScores\test_compute_cvssloose</data>
+    </node>
+    <node id="n47">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsloose</data>
+    </node>
+    <node id="n48">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRows\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n49">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRows\test_merge_rowsloose</data>
+    </node>
+    <node id="n50">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsWithDupesloose</data>
+    </node>
+    <node id="n51">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsWithDupes\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n52">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestCvssVectorMigrationToScoringElementMergeRowsWithDupes\test_merge_rowsloose</data>
+    </node>
+    <node id="n53">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveCorrupteAdvisoriesloose</data>
+    </node>
+    <node id="n54">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveCorrupteAdvisories\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n55">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveCorrupteAdvisories\test_removal_of_corrupted_advisoryloose</data>
+    </node>
+    <node id="n56">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveVulnerabilitiesWithEmptyAliasesloose</data>
+    </node>
+    <node id="n57">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveVulnerabilitiesWithEmptyAliases\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n58">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\RemoveVulnerabilitiesWithEmptyAliases\test_removal_of_corrupted_vulnsloose</data>
+    </node>
+    <node id="n59">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestRemoveDupedPurlsWithSameQualifiersloose</data>
+    </node>
+    <node id="n60">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestRemoveDupedPurlsWithSameQualifiers\setUpBeforeMigrationloose</data>
+    </node>
+    <node id="n61">
+      <data key="v_label">loose</data>
+      <data key="v_color">grey</data>
+      <data key="v_name">C:\Users\Freeman\OneDrive\Documents\Homework\CySer\AST_Project\CySer Dependency Graph\data\vulnerable\vulnerablecode-main\vulnerabilities\tests\test_data_migrations.py\&lt;class &apos;ast.Module&apos;&gt;\TestRemoveDupedPurlsWithSameQualifiers\test_removal_of_duped_purlsloose</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n4">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n5" target="n7">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n13" target="n14">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n13" target="n15">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n16" target="n17">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n16" target="n18">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n19">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n19" target="n20">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n19" target="n21">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n22">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n22" target="n23">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n22" target="n24">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n25">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n25" target="n26">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n25" target="n27">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n28">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n28" target="n29">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n28" target="n30">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n0" target="n31">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n1" target="n32">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n2" target="n33">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n3" target="n34">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n4" target="n35">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n5" target="n36">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n6" target="n37">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n7" target="n38">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n8" target="n39">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n9" target="n40">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n10" target="n41">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n11" target="n42">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n12" target="n43">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n13" target="n44">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n14" target="n45">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n15" target="n46">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n16" target="n47">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n17" target="n48">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n18" target="n49">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n19" target="n50">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n20" target="n51">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n21" target="n52">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n22" target="n53">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n23" target="n54">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n24" target="n55">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n25" target="n56">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n26" target="n57">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n27" target="n58">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n28" target="n59">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n29" target="n60">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n30" target="n61">
+      <data key="e_color">blue</data>
+    </edge>
+    <edge source="n33" target="n2">
+      <data key="e_color">red</data>
+    </edge>
+  </graph>
+</graphml>
